@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap");
+body {
+  background-image: url("https://png.pngtree.com/background/20210717/original/pngtree-steampunk-gears-background-wallpaper-picture-image_1440816.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-blend-mode: color;
+  font-family: "Gajraj One", cursive;
+}
+div.main-container {
+  max-width: 50%;
+  display: inline;
+  justify-content: center;
+}
+div.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+div.container-text {
+  color: rgb(0, 0, 0);
+  font-size: 6rem;
+  padding: 0.5rem;
+  max-width: fit-content;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+.clock {
+  position: relative;
+  width: 60px;
+}
+
+div.container-numbers {
+  color: rgba(0, 0, 0, 0.684);
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+  
+}
+div.container-num2 {
+  padding: 1rem;
+  width:290px;
+  border-radius: 80%;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.482);
+  opacity: 0.9;
+  color: rgb(0, 0, 0,0.8);
+}
+
+
+div.input-buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.7rem;
+}
+div.lap-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.7rem;
+}
+
+button {
+  margin: 2rem 2rem 0.5rem 2rem;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.948);
+  border-radius: 10em;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.356);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
+}
+button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+
+button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+button#inputStart {
+  background-color: #0a8f0a5b;
+}
+button#inputStop {
+  background-color: rgba(255, 0, 0, 0.299);
+}
+button#inputReset {
+  background-color: rgba(255, 255, 0, 0.203);
+}
+button#inputLap {
+  background-color: rgba(6, 0, 4, 0.141);
+}
+div.lap-begins {
+  display: flex;
+  flex-direction:column-reverse;
+  margin-top: 1rem;
+  font-size: larger;
+  max-width: fit-content;
+}
+div.lap-container {
+  justify-content: center;
+}
+div.lap-record {
+  background-color: rgb(206, 155, 77);
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  opacity: 0.7;
+}
